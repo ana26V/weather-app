@@ -1,0 +1,149 @@
+
+:root {
+  
+  --light-green: rgb(0, 185, 108);
+}
+.header {
+  height: 30vh;
+  background-color: aquamarine !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-location {
+  padding: 2em;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.currentCity {
+  font-weight: bold;
+  font-size: larger;
+}
+.displayShortInfo {
+  background-color: rgba(177, 191, 255, 0.322);
+
+  height: 300px;
+}
+
+.paragraph-center {
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+#grade-celsius {
+  margin-top: 0.5em;
+  font-size: 1.1em;
+}
+.left-shortInfo {
+ padding: 1.7em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  
+}
+.prognosis{
+    text-align: center;
+    padding: 1em;
+    font-weight:bold
+}
+#forecast{
+  padding: 3em;
+  
+}
+#forecast-box{
+  width: 80%;
+  margin: 0 auto;
+}
+.forecastinfo{
+  padding: 1.7em;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  border-radius:10px;
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: x-large;
+  
+ 
+}
+.btn-secondary{
+  background-color: var(--light-green);
+  border: none;
+}
+.btn-secondary:hover{
+  background-color: rgb(0, 224, 131);
+  border: none;
+}
+h3,h2{
+  color: var(--light-green);
+  font-weight: bold;
+}
+footer{
+  background-color:  var(--light-green);
+  height: 6vh;
+  margin: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+ 
+}
+footer p {
+  margin: 0 auto;
+  font-size: large;
+}
+
+
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+}
+
+#scroll-to-top button {
+  border-radius: 50%;
+  border: none;
+  width:2em;
+  height: 2em;
+  background-color:#313131;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+#scroll-to-top button:hover {
+  background-color:#535353 ;
+}
+
+#scroll-to-top button:focus {
+  outline: none;
+}
+
+ 
+#scroll-to-top button:hover::after {
+  content: "Scroll to top";
+  position: absolute;
+  top: -3em;
+  left: -4em;
+  background-color: rgb(255, 255, 255);
+  color: rgb(49, 48, 48);
+  padding: 0.3em;
+  border-radius: 5px ;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  font-size:medium;
+}
