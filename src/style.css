@@ -4,8 +4,9 @@
   --light-green: rgb(0, 185, 108);
 }
 .header {
-  height: 30vh;
-  background-color: aquamarine !important;
+  color: white;
+  height: 15vh;
+  background-color: rgb(70, 160, 121) !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +25,7 @@
   font-size: larger;
 }
 .displayShortInfo {
-  background-color: rgba(177, 191, 255, 0.322);
+  background-color: rgba(177, 191, 255, 0.253);
 
   height: 300px;
 }
